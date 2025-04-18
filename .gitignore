@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Coverage reports
+coverage/
+
+# Freshworks FDK 로컬 파일
+.fdk/
+
+# 로그 파일
+log/
+
+# FDK 메타 및 리포트
+*.info
+*.json
+!package.json
+!.iparams.json
+.meta.json
+.report.json
+
+# macOS 시스템 파일
+.DS_Store
