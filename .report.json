@@ -1,5 +1,14 @@
 {
-  "lints": [],
+  "lints": [
+    {
+      "severity": 1,
+      "value": "app/scripts/app.js::21: 'client' declared and assigned in different scopes. Possible asynchronous race condition."
+    },
+    {
+      "severity": 1,
+      "value": "app/scripts/app.js::45: refrain from simply logging errors."
+    }
+  ],
   "coverage": {
     "app/scripts/app.js": {
       "path": "app/scripts/app.js",
