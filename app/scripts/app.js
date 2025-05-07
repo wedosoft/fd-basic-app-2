@@ -8,7 +8,7 @@ async function showSampleModal() {
     await client.interface.trigger("showModal", {
       title: "Sample App Form",
       template: "modal.html",
-      nobackdrop: true
+      noBackdrop: true
     });
     console.log("Modal 열림");
   } catch (err) {
