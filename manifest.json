@@ -2,8 +2,8 @@
     "modules": {
       "support_ticket": {
         "location": {
-          "ticket_top_navigation": {
-            "url": "index.html",
+          "ticket_conversation_editor": {
+            "url": "modal.html",
             "icon": "styles/images/icon.svg"
           }
         },
