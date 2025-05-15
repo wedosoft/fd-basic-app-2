@@ -2,11 +2,13 @@
   "lints": [
     {
       "severity": 1,
-      "value": "app/scripts/app.js::21: 'client' declared and assigned in different scopes. Possible asynchronous race condition."
+      "value": "app/scripts/app.js::21: 'client' declared and assigned in different scopes. Possible asynchronous race condition.",
+      "type": "custom-js-lint"
     },
     {
       "severity": 1,
-      "value": "app/scripts/app.js::45: refrain from simply logging errors."
+      "value": "app/scripts/app.js::45: refrain from simply logging errors.",
+      "type": "custom-js-lint"
     }
   ],
   "coverage": {
